@@ -8,6 +8,8 @@ describe("<HomePage/>", () => {
 
   beforeEach(() => (wrapper = shallow(<HomePage />)));
 
+  it("should render correctly", () => expect(wrapper).toMatchSnapshot());
+
   it("should render a <div/>", () => {
     expect(wrapper.find("div").length).toEqual(1);
   });
