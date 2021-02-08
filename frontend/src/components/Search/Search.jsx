@@ -1,10 +1,10 @@
 import React from "react";
+import Input from "../Input";
 
 const Search = () => {
   return (
     <div className='search'>
-      <input type='text' placeholder='Axtar...' />
-      <i className='fa fa-search'></i>
+      <Input />
     </div>
   );
 };
