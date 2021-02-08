@@ -1,9 +1,11 @@
-import './App.css';
+import "./App.css";
+
+import HomePage from "./pages/HomePage";
 
 function App() {
   return (
-    <div className="App">
-      <h1>Iynesapp</h1>
+    <div>
+      <HomePage />
     </div>
   );
 }
