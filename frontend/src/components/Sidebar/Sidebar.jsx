@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Search from "../Search";
 
 const Sidebar = () => {
-    return (
-        <div className='sidebar'>
-            
-        </div>
-    )
-}
+  return (
+    <div className='sidebar'>
+      <Search />
+    </div>
+  );
+};
 
-export default Sidebar
+export default Sidebar;
