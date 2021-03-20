@@ -63,42 +63,42 @@ body,
   color: #999;
 }
 
-.chat .sidebar .contacts {
+.chat .sidebar .messages {
   overflow: auto;
 }
 
-.chat .sidebar .contacts ul li a {
+.chat .sidebar .messages ul li a {
   display: flex;
   height: 60px;
   align-items: center;
   padding: 0 10px;
 }
 
-.chat .sidebar .contacts ul li.active a,
-.chat .sidebar .contacts ul li a:hover {
+.chat .sidebar .messages ul li.active a,
+.chat .sidebar .messages ul li a:hover {
   background: #fff;
 }
 
-.chat .sidebar .contacts ul li a img {
+.chat .sidebar .messages ul li a img {
   width: 40px;
   height: 40px;
   border-radius: 40px;
   margin-right: 10px;
 }
 
-.chat .sidebar .contacts ul li a .contact .name {
+.chat .sidebar .messages ul li a .contact .name {
   font-size: 15px;
   color: #333;
   font-weight: 500;
   margin-bottom: 3px;
 }
 
-.chat .sidebar .contacts ul li a .contact .message {
+.chat .sidebar .messages ul li a .contact .message {
   font-size: 13px;
   color: #999;
 }
 
-.chat .sidebar .contacts ul li a .notification {
+.chat .sidebar .messages ul li a .notification {
   width: 18px;
   height: 18px;
   border-radius: 18px;
@@ -110,7 +110,7 @@ body,
   margin-left: auto;
 }
 
-.chat .sidebar .contacts ul li a .notification:empty {
+.chat .sidebar .messages ul li a .notification:empty {
   display: none;
 }
 
