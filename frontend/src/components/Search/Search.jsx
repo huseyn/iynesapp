@@ -5,6 +5,7 @@ const Search = () => {
   return (
     <div className='search'>
       <Input />
+      <i class="fa fa-search"></i>
     </div>
   );
 };
