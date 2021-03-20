@@ -74,7 +74,7 @@ body,
   padding: 0 10px;
 }
 
-.chat .sidebar .messages ul li.active a,
+.chat .sidebar .messages ul li.active button,
 .chat .sidebar .messages ul li a:hover {
   background: #fff;
 }
