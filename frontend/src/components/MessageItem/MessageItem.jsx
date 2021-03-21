@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import PropTypes from "prop-types";
 
 const MessageItem = ({ message }) => {
   return (
@@ -13,6 +14,10 @@ const MessageItem = ({ message }) => {
       </Link>
     </li>
   );
+};
+
+MessageItem.propTypes = {
+  message: PropTypes.object.isRequired,
 };
 
 export default MessageItem;
