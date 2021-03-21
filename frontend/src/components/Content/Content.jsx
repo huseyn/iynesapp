@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import Header from "../Header";
 
 const Content = () => {
-    return (
-        <div className='content'>
-            
-        </div>
-    )
-}
+  return (
+    <div className='content'>
+      <Header />
+    </div>
+  );
+};
 
-export default Content
+export default Content;
