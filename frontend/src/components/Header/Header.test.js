@@ -5,9 +5,9 @@ import Header from "./Header";
 describe("<Header/>", () => {
   let wrapper;
 
-  beforeEach(() => (wrapper = shallow(<Header />)));
+  beforeEach(() => (wrapper = shallow(<Header info={{}} />)));
 
   it("should render a div", () => {
-    expect(wrapper.find("div").length).toEqual(1);
+    expect(wrapper.find("div").length).toEqual(6);
   });
 });
